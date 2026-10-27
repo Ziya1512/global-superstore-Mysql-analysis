@@ -34,14 +34,14 @@ The dataset contains information about orders, customers, products, sales, profi
 ```text
 global-superstore-Mysql-analysis/
 │
-├── 01_data_quality_checks.sql
-├── 02_overall_business_analysis.sql
-├── 03_customer_analysis.sql
-├── 04_product_analysis.sql
-├── 05_sales_trends.sql
+├── screenshots
+├── 01_Quality_Checks.sql
+├── 02_Overall_Business_Analysis.sql
+├── 03_Customer_Analysis.sql
+├── 04_Product_Analysis.sql
+├── 05_Sales_Trends.sql
 │
 ├── superstore_analysis_customers.sql
-├── superstore_analysis_monthly_orders.sql
 ├── superstore_analysis_orders.sql
 ├── superstore_analysis_products.sql
 ├── superstore_analysis_routines.sql
