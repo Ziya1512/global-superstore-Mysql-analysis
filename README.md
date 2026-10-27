@@ -29,18 +29,48 @@ The dataset contains information about orders, customers, products, sales, profi
 
 ## 4. Project Structure
 
+## Project Structure
+
 ```text
-global-superstore-sql-analysis/
+global-superstore-Mysql-analysis/
 │
-├── README.md
 ├── 01_data_quality_checks.sql
 ├── 02_overall_business_analysis.sql
 ├── 03_customer_analysis.sql
 ├── 04_product_analysis.sql
 ├── 05_sales_trends.sql
 │
-└── screenshots/
+├── superstore_analysis_customers.sql
+├── superstore_analysis_monthly_orders.sql
+├── superstore_analysis_orders.sql
+├── superstore_analysis_products.sql
+├── superstore_analysis_routines.sql
+│
+└── README.md
 ```
+
+### File Descriptions
+
+**Analysis Scripts**
+
+| File | Purpose |
+|---|---|
+| `01_data_quality_checks.sql` | Checks data quality, missing values, relationships, and potential outliers. |
+| `02_overall_business_analysis.sql` | Analyzes overall sales, profit, regions, categories, and business performance. |
+| `03_customer_analysis.sql` | Examines customer behavior, lifetime value, RFM segmentation, and repeat purchases. |
+| `04_product_analysis.sql` | Analyzes product sales, profitability, rankings, and sales contribution. |
+| `05_sales_trends.sql` | Examines monthly trends, growth, rolling totals, and seasonality. |
+
+**Database Export Files**
+
+| File | Purpose |
+|---|---|
+| `superstore_analysis_customers.sql` | Database export for customer-related data and objects. |
+| `superstore_analysis_orders.sql` | Database export for order transaction data and objects. |
+| `superstore_analysis_products.sql` | Database export for product-related data and objects. |
+| `superstore_analysis_routines.sql` | Export of database routines and other included objects. |
+
+
 
 ## 5. Analysis Modules
 
