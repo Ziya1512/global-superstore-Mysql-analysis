@@ -90,8 +90,8 @@ The repository includes five MySQL `.sql` files containing database exports for 
 
 | File | Description |
 |---|---|
-| [`superstore_analysis_customers.sql`](https://github.com/Ziya1512/global-superstore-Mysql-analysis/blob/main/superstore_analysis_customers.sql) | Customer-related database data and table definitions. |
-| [`superstore_analysis_monthly_orders.sql`](https://github.com/Ziya1512/global-superstore-Mysql-analysis/blob/main/superstore_analysis_monthly_orders.sql) | Monthly orders data or related table definitions. |
+| [`superstore_analysis_customers.sql`](https://github.com/Ziya1512/global-superstore-Mysql-analysis/blob/main/superstore_analysis_customers.sql) | 
+Monthly orders data or related table definitions. |
 | [`superstore_analysis_orders.sql`](https://github.com/Ziya1512/global-superstore-Mysql-analysis/blob/main/superstore_analysis_orders.sql) | Order transaction data and table definitions. |
 | [`superstore_analysis_products.sql`](https://github.com/Ziya1512/global-superstore-Mysql-analysis/blob/main/superstore_analysis_products.sql) | Product-related database data and table definitions. |
 | [`superstore_analysis_routines.sql`](https://github.com/Ziya1512/global-superstore-Mysql-analysis/blob/main/superstore_analysis_routines.sql) | Database routines, such as stored procedures or functions, if included in the export. |
