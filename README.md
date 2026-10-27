@@ -84,7 +84,26 @@ The `screenshots/` folder contains selected query outputs and business findings 
 
 This project strengthened my practical SQL skills by applying foundational and advanced concepts to a structured retail dataset. It demonstrates my ability to validate data, analyze business performance, investigate customer and product behavior, and explore sales trends using MySQL.
 
-## Author
+## 11. Database Files
 
+The repository includes five MySQL `.sql` files containing database exports for the Global Superstore analysis project.
+
+| File | Description |
+|---|---|
+| [`superstore_analysis_customers.sql`](https://github.com/Ziya1512/global-superstore-Mysql-analysis/blob/main/superstore_analysis_customers.sql) | Customer-related database data and table definitions. |
+| [`superstore_analysis_monthly_orders.sql`](https://github.com/Ziya1512/global-superstore-Mysql-analysis/blob/main/superstore_analysis_monthly_orders.sql) | Monthly orders data or related table definitions. |
+| [`superstore_analysis_orders.sql`](https://github.com/Ziya1512/global-superstore-Mysql-analysis/blob/main/superstore_analysis_orders.sql) | Order transaction data and table definitions. |
+| [`superstore_analysis_products.sql`](https://github.com/Ziya1512/global-superstore-Mysql-analysis/blob/main/superstore_analysis_products.sql) | Product-related database data and table definitions. |
+| [`superstore_analysis_routines.sql`](https://github.com/Ziya1512/global-superstore-Mysql-analysis/blob/main/superstore_analysis_routines.sql) | Database routines, such as stored procedures or functions, if included in the export. |
+
+### Database Import
+
+1. Download the required `.sql` files from the repository.
+2. Create or select the target database in MySQL.
+3. Import the table files, accounting for dependencies between tables.
+4. Import the routines file after the required tables are available.
+5. Verify that the database objects and column names match those used in the analysis scripts.
+
+## Author
 Ziya
 https://github.com/Ziya1512
