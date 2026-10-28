@@ -6,7 +6,22 @@ This project was built to practise and consolidate SQL concepts through hands-on
 
 It covers data quality checks, business performance, customer behavior, product profitability, and sales trends, applying SQL techniques to explore data and answer business questions.
 
-## 2. Dataset Information
+## 2. Screenshots
+
+The `screenshots/` folder contains selected query outputs and business findings from the five analysis modules.
+## Project Screenshots
+
+![SQL 1](SQL_1.png)
+
+![SQL 2](SQL_2.png)
+
+![SQL 3](SQL_3.png)
+
+![SQL 4](SQL_4.png)
+
+![SQL 5](SQL_5.png)
+
+## 3. Dataset Information
 
 | Attribute | Details |
 |---|---|
@@ -21,13 +36,13 @@ The dataset contains information about orders, customers, products, sales, profi
 
 *Note: The exact original Kaggle listing URL could not be recovered.*
 
-## 3. Tools and Technologies
+## 4. Tools and Technologies
 
 - **MySQL 8.0** — Data analysis and querying
 - **MySQL Workbench** — Query development and execution
 - **Git and GitHub** — Version control and project documentation
 
-## 4. Project Structure
+## 5. Project Structure
 
 ## Project Structure
 
@@ -72,7 +87,7 @@ global-superstore-Mysql-analysis/
 
 
 
-## 5. Analysis Modules
+## 6. Analysis Modules
 
 | SQL Script | Focus Areas |
 |---|---|
@@ -82,7 +97,7 @@ global-superstore-Mysql-analysis/
 | `04_product_analysis.sql` | Product rankings, profitability, underperforming products, and Pareto analysis |
 | `05_sales_trends.sql` | Monthly trends, MoM growth, rolling totals, cumulative performance, and seasonality |
 
-## 6. SQL Concepts Practised
+## 7. SQL Concepts Practised
 
 - Joins, aggregate functions, and subqueries
 - Common Table Expressions (CTEs)
@@ -93,7 +108,7 @@ global-superstore-Mysql-analysis/
 - NULL handling and percentage calculations
 - Business metrics and performance benchmarks
 
-## 7. Setup and Execution
+## 8. Setup and Execution
 
 1. Create a MySQL database and import the dataset.
 2. Prepare the required `orders`, `customers`, and `products` tables.
@@ -103,12 +118,7 @@ global-superstore-Mysql-analysis/
 
 Refer to the comments in each SQL file for specific execution instructions.
 
-## 8. Key Findings and Business Insights
-
-
-## 9. Screenshots
-
-The `screenshots/` folder contains selected query outputs and business findings from the five analysis modules.
+## 9. Key Findings and Business Insights
 
 ## 10. Conclusion
 
